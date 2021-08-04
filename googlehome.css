@@ -1,0 +1,142 @@
+body {
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+.sbar {
+  background: #fff;
+  display: flex;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  height: 39px;
+  width: 690px;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 1%;
+  float: right;
+  /* clear: both; */
+  margin-right: 40%;
+}
+/* #srch1 {
+  width: 6%;
+  margin-top: 2px;
+  height: 39px;
+  background: white;
+  border-radius: 24px;
+} */
+#inptsbar {
+  height: 39px !important;
+  line-height: 39px;
+  margin-top: -32px;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  /* outline: none; */
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* margin-top: -37px; */
+  /* height: 34px; */
+  font-size: 16px;
+  font: 16px arial, sans-serif;
+  outline: 0;
+  margin-left: 30px;
+  /* float: left; */
+}
+input {
+  /* -webkit-writing-mode: horizontal-tb !important; */
+  text-rendering: auto;
+  /* color: -internal-light-dark(black, white); */
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  /* display: inline-block; */
+  text-align: start;
+  appearance: auto;
+  /* background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59)); */
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+}
+#logoG {
+  height: 30px;
+  aspect-ratio: auto 92 / 30;
+  width: 92px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+#btnS {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  margin-left: 120%;
+  margin-top: 8%;
+  /* float: right; */
+  /* float: left; */
+  /* clear: both; */
+}
+#end {
+  width: 100%;
+  height: 65px;
+  border-bottom: 1.8px solid rgb(213, 212, 212);
+}
+.lower {
+  width: 100%;
+  height: 800px;
+  margin-top: 1%;
+  /* background-color: gray; */
+}
+.leftBox {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  float: left;
+  margin-left: 1%;
+  border: 1.8px solid rgb(213, 212, 212);
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+#result {
+  width: 90%;
+  margin: auto;
+}
+#rtBox {
+  width: 30%;
+  border: 1px solid black;
+  height: auto;
+  float: right;
+  margin-right: 5%;
+  border: 1.8px solid rgb(213, 212, 212);
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+#linez {
+  width: 80%;
+  border-bottom: 1.8px solid rgb(213, 212, 212);
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
